@@ -53,4 +53,24 @@ document.addEventListener("DOMContentLoaded", () => {
 
   //Draw the shooter
   squares[currentShooterIndex].classList.add("shooter");
+
+  //Move the shooter along the line
+  const moveShooter = (ev) => {
+    squares[currentShooterIndex].classList.remove("shooter");
+    switch (ev.keyCode) {
+      case 37: //left arrow
+        if (currentShooterIndex % width !== 0) {
+          currentShooterIndex -= 1;
+        }
+        break;
+      case 39: //right arrow
+        if (currentShooterIndex % width < width - 1) {
+          currentShooterIndex += 1;
+        }
+        break;
+      default:
+        console.log("Not that key!!");
+    }
+  };
+  document.addEventListener("keydown", moveShooter);
 });
