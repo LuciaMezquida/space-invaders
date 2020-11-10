@@ -1,6 +1,7 @@
 body {
   background-image: url(https://images.alphacoders.com/935/thumb-1920-935315.png);
   background-repeat: no-repeat;
+  height: 100vh;
 }
 
 .score {
