@@ -95,9 +95,6 @@ que los cuadros 'cuadran' en el main div*/
 }
 
 @media all and (max-width: 1200px) and (min-width: 550px) {
-  body {
-    margin-top: 10%;
-  }
   .grid {
     width: 300px;
     height: 300px;
@@ -129,8 +126,7 @@ que los cuadros 'cuadran' en el main div*/
   }
 
   .instructions p {
-    font-size: 3px;
-    margin-left: 20px;
+    font-size: 0.8em;
   }
 
   .image {
@@ -144,8 +140,8 @@ que los cuadros 'cuadran' en el main div*/
 }
 
 @media all and (max-width: 550px) {
-  body {
-    margin-top: 10%;
+  .arrow {
+    width: 20%;
   }
 
   .grid {
@@ -174,6 +170,14 @@ que los cuadros 'cuadran' en el main div*/
     background-image: url(https://img.icons8.com/fluent/10/000000/conflict.png);
   }
 
+  .score {
+    font-size: 15px;
+  }
+
+  .instructions p {
+    font-size: 3px;
+    margin-left: 20px;
+  }
   .image {
     width: 20%;
     padding-right: 2px;
