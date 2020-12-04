@@ -1,6 +1,10 @@
+* {
+  margin: 0;
+}
 body {
   background-image: url(https://images.alphacoders.com/935/thumb-1920-935315.png);
   background-repeat: no-repeat;
+  background-size: cover;
   height: 100vh;
 }
 
@@ -10,7 +14,7 @@ body {
   font-size: 45px;
   letter-spacing: 4px;
   color: white;
-  padding-top: 20px;
+  padding-top: 90px;
 }
 
 .container {
@@ -64,6 +68,7 @@ que los cuadros 'cuadran' en el main div*/
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
+  padding-top: 20px;
 }
 
 .instructions p {
@@ -124,7 +129,8 @@ que los cuadros 'cuadran' en el main div*/
   }
 
   .instructions p {
-    font-size: 0.8em;
+    font-size: 3px;
+    margin-left: 20px;
   }
 
   .image {
@@ -168,14 +174,6 @@ que los cuadros 'cuadran' en el main div*/
     background-image: url(https://img.icons8.com/fluent/10/000000/conflict.png);
   }
 
-  .score {
-    font-size: 15px;
-  }
-
-  .instructions p {
-    font-size: 3px;
-    margin-left: 20px;
-  }
   .image {
     width: 20%;
     padding-right: 2px;
